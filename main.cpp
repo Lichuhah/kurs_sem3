@@ -57,7 +57,7 @@ int main() {
         case 5: testData.sortByGroup(); break;
         case 6: testData.writeToFile(filepath); break;
         case 7: testData.findOtl(); break;
-        case 8: break;
+        case 8: exit(0); break;
         default: cout << "Некорректный ввод" << endl; cin.clear(); cin.ignore(cin.rdbuf()->in_avail()); break;
         }
     }
